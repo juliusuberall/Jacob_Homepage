@@ -40,3 +40,24 @@
   font-size: 10.24px;
   text-align: center;
 }
+
+/*------------------------RESPONSIVE-DESIGN--------------------------*/
+/*TABLET*/
+@media all and (orientation:portrait){
+    .footer{
+    height: 102px;
+    position: relative;
+  }
+  .copyright{
+    font-size: 25px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
