@@ -1,0 +1,42 @@
+
+/*------------------------APPLIED-TO-ALL--------------------------*/
+*{
+  margin: 0;
+  padding: 0;
+}
+/*------------------------FONTS--------------------------*/
+/*---8.19px---10.24px---12.8px---16px---20px---25px---31.25px---39.06px---48.83---61.04px---76.29px---*/
+/*Main Font import*/
+@font-face{
+    font-family:SpaceMono Bold;
+    src:url(../fonts/Space_Mono/SpaceMono-Bold.ttf);
+}
+@font-face{
+    font-family:SpaceMono Regular;
+    src:url(../fonts/Space_Mono/SpaceMono-Regular.ttf);
+}
+/*------------------------FONT-SIZING--------------------*/
+.head{
+    font-family: 'SpaceMono Bold';
+    color: #000000;
+    font-size: 48.83px;
+    text-align: left;
+}
+.para{
+    font-family: 'SpaceMono Regular';
+    color: #000000;
+    font-size: 12.8px;
+    text-align: left;
+}
+/*------------------------CONSISTENT-ELEMENTS--------------------*/
+.footer{
+  border: 0.5px solid #444444;
+  padding: 12.5px 0px 12.5px 0px;
+  width: 100%;
+}
+.copyright{
+  font-family: 'SpaceMono Regular';
+  color: #000000;
+  font-size: 10.24px;
+  text-align: center;
+}
