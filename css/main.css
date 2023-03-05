@@ -49,7 +49,9 @@
 .C-Landing{
   display: flex;
   flex-direction: row;
-  width: 100%;
+}
+.Collection{
+  flex-direction: column;
 }
 
 /*------------------------FOOTER--------------------*/
@@ -130,8 +132,19 @@
   bottom: 0;
   padding: 30px 20px 30px 20px ;
 }
-.Collection_Name{
+#Collection_Name_FeelMe{
   color: #F92C2D;
+}
+.Collection_Images_Frame{
+  display: flex;
+  flex-direction: row;
+  height: 500px;
+}
+.Collection_Images{
+}
+
+#FeelMe_Images_Frames{
+  
 }
 
 /*------------------------RESPONSIVE-DESIGN--------------------------*/
