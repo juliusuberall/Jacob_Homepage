@@ -163,9 +163,103 @@
 #Collection_Name_V310717A{
   color: #CCD6EC;
 }
-
 #Collection_Name_Envrmnts{
   color: #DFDCD5;
+}
+
+/*------------------------COLLECTION-LINKS--------------------------*/
+/*------------------------FEEL ME--------------------------*/
+.FeelMe_Collection_Link{
+  min-block-size: 100%;
+  min-inline-size: 100%;
+  box-sizing: border-box;
+  display: grid;
+  place-content: center;
+  color: #000000;
+  text-decoration: none;
+}
+
+.FeelMe_Collection_Link::before {  
+  transform: scaleX(0);
+  transform-origin: bottom right;
+}
+
+.FeelMe_Collection_Link:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.FeelMe_Collection_Link::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  inset: 25px 13px 25px 13px;
+  background: #F92C2D;
+  z-index: -1;
+  transition: transform .3s ease;
+}
+/*------------------------V310717A--------------------------*/
+.V310717A_collection_link{
+  min-block-size: 100%;
+  min-inline-size: 100%;
+  box-sizing: border-box;
+  display: grid;
+  place-content: center;
+  color: #000000;
+  text-decoration: none;
+}
+
+.V310717A_collection_link::before {  
+  transform: scaleX(0);
+  transform-origin: bottom right;
+}
+
+.V310717A_collection_link:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.V310717A_collection_link::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  inset: 25px 13px 25px 13px;
+  background: #CCD6EC;
+  z-index: -1;
+  transition: transform .3s ease;
+}
+/*------------------------ENVRMNTS--------------------------*/
+.ENVRMNTS_collection_link{
+  min-block-size: 100%;
+  min-inline-size: 100%;
+  box-sizing: border-box;
+  display: grid;
+  place-content: center;
+  color: #000000;
+  text-decoration: none;
+}
+
+.ENVRMNTS_collection_link::before {  
+  transform: scaleX(0);
+  transform-origin: bottom right;
+}
+
+.ENVRMNTS_collection_link:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.ENVRMNTS_collection_link::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  inset: 25px 13px 25px 13px;
+  background: #DFDCD5;
+  z-index: -1;
+  transition: transform .3s ease;
 }
 
 /*------------------------RESPONSIVE-DESIGN--------------------------*/
