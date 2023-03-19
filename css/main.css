@@ -23,6 +23,13 @@
     text-align: left;
     line-height: 100%;
 }
+.Collection_Headline{
+  font-family: 'SpaceMono Regular';
+  color: #000000;
+  font-size: 76.29px;
+  text-align: left;
+  line-height: 100%;
+}
 .H6{
   font-family: 'SpaceMono Regular';
   color: #000000;
@@ -265,7 +272,77 @@
 /*------------------------RESPONSIVE-DESIGN--------------------------*/
 /*TABLET*/
 @media all and (orientation:portrait){
-    .footer{
+  .C-Landing{
+    display: unset;
+    flex-direction: unset;
+  }
+  /*OPENER*/
+  .MobileOpeningPortrait{
+    display: none;
+  }
+  .Division-Landing-Opener-Media{
+    display: unset;
+    flex-direction:row;
+    width: 100%;
+    padding: 0;
+    position: unset;
+  }
+  #OpeningHeadLine{
+    position: unset;
+    padding-bottom: 50%;
+  }
+  #PersonalIntroductionFrame{
+    position: unset;
+  }
+  #PersonalIntrodcutionText{
+    width: 100%;
+  }
+
+  /*COLLECTION CONTAINER*/
+  .Collection_Header_R_Frame{
+    display: none;
+  }
+  .Collection_Header_L_Frame{
+    width: 100%;
+  }
+  .P{
+    font-size: 31.25px;
+  }
+  .Collection_Name_Frame{
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+  }
+  .Collection_Headline{
+    text-align: center;
+  }
+  .Collection_Quicklinks_Frame{
+    padding-left: 0;
+    padding-right: 0;
+    position: unset;
+    width: 100%;
+    text-align: center;
+  }
+  .V310717A_collection_link{
+    pointer-events: none;
+  }
+
+
+  /*COLLECTION IMAGE*/
+  .HighlightLine{
+    display: none;
+  }
+  .MobileThumbnail{
+    display: unset;
+    width: 100%;
+  }
+  #FeelMe_Collection_Image_B{
+    display: unset;
+    width: 100%;
+  }
+
+  /*FOOTER*/
+  .footer{
     height: 102px;
     position: relative;
   }
